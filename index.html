@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bulb</title>
+    <script>
+      function lightOn() {
+        document.getElementById("bulb").src = "bulb_on.png";
+      }  
+      function lightOff() {
+        document.getElementById("bulb").src = "bulb_off.png";
+      }
+    </script>
+  </head>
+  <body>
+    <center>
+      <img id="bulb" src="bulb_off.png" width="300" />
+      <br />
+      <button onclick="lightOn()">ON</button>
+      <button onclick="lightOff()">OFF</button>
+    </center>
+  </body>
+</html>
